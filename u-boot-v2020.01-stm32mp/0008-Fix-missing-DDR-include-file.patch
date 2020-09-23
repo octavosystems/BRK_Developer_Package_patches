@@ -1,7 +1,7 @@
 From 067c36c6e425a85113dc279f33174c315272a3ac Mon Sep 17 00:00:00 2001
 From: "neeraj.dantu" <neeraj.dantu@octavosystems.com>
 Date: Wed, 23 Sep 2020 11:48:28 -0500
-Subject: [PATCH 3/3] Fix missing DDR include file
+Subject: [PATCH 3/4] Fix missing DDR include file
 
 ---
  .../dts/stm32mp157c-osd32mp1-brk-u-boot.dtsi  | 130 ++++++------------
