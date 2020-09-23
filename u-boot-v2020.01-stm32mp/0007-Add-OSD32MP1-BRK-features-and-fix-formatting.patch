@@ -1,7 +1,7 @@
 From a473ef7f04c60d7a4a878a50890730cb0e788b40 Mon Sep 17 00:00:00 2001
 From: "neeraj.dantu" <neeraj.dantu@octavosystems.com>
 Date: Tue, 22 Sep 2020 17:30:17 -0500
-Subject: [PATCH 2/2] Add OSD32MP1-BRK features and fix formatting
+Subject: [PATCH 2/3] Add OSD32MP1-BRK features and fix formatting
 
 ---
  ...tsi => stm32mp15-osd32mp1-ddr3-1x4Gb.dtsi} |   0
