@@ -38,16 +38,25 @@ Instructions here: https://wiki.st.com/stm32mpu/wiki/STM32MP1_Developer_Package#
 
 Before 5.4.2: ```cp BRK_Developer_Package_patches/arm-trusted-firmware-v2.2-stm32mp/* [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/tf-a-stm32mp-2.2.r1-r0/```
 
-### U-Boot Installation
+## U-Boot Installation
 Instructions here: https://wiki.st.com/stm32mpu/wiki/STM32MP1_Developer_Package#Installing_the_U-Boot
 
 Before 5.3.2: ```cp BRK_Developer_Package_patches/u-boot-v2020.01-stm32mp/* [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/u-boot-stm32mp-2020.02-r0/```
 
-### Kernel Installation
+## Kernel Installation
 Instructions here: https://wiki.st.com/stm32mpu/wiki/STM32MP1_Developer_Package#Installing_the_Linux_kernel
 
 Before 5.2.2: ```cp BRK_Developer_Package_patches/linux-v5.4-stm32mp/* [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/linux-stm32mp-5.4.31-r0/```
 
 
-### Cube Programmer support
+## Cube Programmer support
 FlashLayout_sdcard_stm32mp157c-osd32mp1-brk-trusted.tsv provides support for Cube Programmer.
+
+Procedure to flash BRK board via Starter Package:
+
+```cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/tf-a-stm32mp-2.2.r1-r0/build/serialboot/tf-a-stm32mp157c-osd32mp1-brk-serialboot.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/arm-trusted-firmware/
+
+cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/tf-a-stm32mp-2.2.r1-r0/build/trusted/tf-a-stm32mp157c-osd32mp1-brk-trsuted.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/arm-trusted-firmware/
+
+cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/u-boot-stm32mp-2020.02-r0/build-trusted/u-boot-stm32mp157c-osd32mp1-brk-trusted.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/bootloader```
+
