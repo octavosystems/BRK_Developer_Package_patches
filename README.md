@@ -62,3 +62,14 @@ cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/s
 cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/u-boot-stm32mp-2020.02-r0/build-trusted/u-boot-stm32mp157c-osd32mp1-brk-trusted.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/bootloader/
 ```
 
+Once image is flashed, you will need to copy kernel device tree into /bootfs directory. If you use a build directory, here is the command:
+
+```
+cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/linux-stm32mp-5.4.31-r0/build/arch/arm/boot/dts/stm32mp157c-osd32mp1-brk.dtb /media/[user]/bootfs
+```
+
+## How to contribute
+1. Clone repo with a new branch: ```git checkout https://github.com/octavosystems/BRK_Developer_Package_patches -b new_branch_name```
+2. Change and test
+3. Submit pull request
+
