@@ -69,7 +69,8 @@ cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/s
 ```
 
 ## How to contribute
-1. Clone repo with a new branch: ```git checkout https://github.com/octavosystems/BRK_Developer_Package_patches -b new_branch_name```
+1. Clone repo with a new branch: 
+```git checkout https://github.com/octavosystems/BRK_Developer_Package_patches -b new_branch_name```
 2. Change and test
 3. Submit pull request
 
