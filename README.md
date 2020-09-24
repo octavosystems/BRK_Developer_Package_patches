@@ -13,7 +13,7 @@ Tested on Ubuntu 16.04 LTS and 18.04 LTS
 | U-Boot version | v2020.01-stm32mp |
 | TF-A version | v2.2-stm32mp |
 | Kernel Version | v5.4-stm32mp |
-| Cube Programmer | v2.4 |
+| Cube Programmer | v2.5 |
 
 Developer Package istallation : https://wiki.st.com/stm32mpu/wiki/STM32MP1_Developer_Package
 
