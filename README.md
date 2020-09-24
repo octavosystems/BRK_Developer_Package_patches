@@ -54,9 +54,11 @@ FlashLayout_sdcard_stm32mp157c-osd32mp1-brk-trusted.tsv provides support for Cub
 
 Procedure to flash BRK board via Starter Package:
 
-```cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/tf-a-stm32mp-2.2.r1-r0/build/serialboot/tf-a-stm32mp157c-osd32mp1-brk-serialboot.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/arm-trusted-firmware/
+```
+cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/tf-a-stm32mp-2.2.r1-r0/build/serialboot/tf-a-stm32mp157c-osd32mp1-brk-serialboot.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/arm-trusted-firmware/
 
 cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/tf-a-stm32mp-2.2.r1-r0/build/trusted/tf-a-stm32mp157c-osd32mp1-brk-trsuted.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/arm-trusted-firmware/
 
-cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/u-boot-stm32mp-2020.02-r0/build-trusted/u-boot-stm32mp157c-osd32mp1-brk-trusted.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/bootloader```
+cp [Developer Package directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/sources/arm-ostl-linux-gnueabi/u-boot-stm32mp-2020.02-r0/build-trusted/u-boot-stm32mp157c-osd32mp1-brk-trusted.stm32 [Starter Package Directory]/stm32mp1-openstlinux-5.4-dunfell-mp1-20-06-24/images/stm32mp1/bootloader/
+```
 
