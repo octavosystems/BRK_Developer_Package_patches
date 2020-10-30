@@ -26,7 +26,8 @@ Patch files for each component of the Developer Package are
 Refer to https://community.st.com/s/question/0D53W00000HOJdOSAX for additional info on TF-A compilation issue
 
 2. In u-boot-v2020.01-stm32mp
-- Patch files for compiling Tf-A for OSD32MP1-BRK
+- Patch files for compiling U-Boot for OSD32MP1-BRK
+- Makefile.sdk to replace Makefile.sdk for U-Boot
 
 3. In linux-v5.4-stm32mp
 - Patch files for compiling kernel/device tree for OSD32MP1-BRK
