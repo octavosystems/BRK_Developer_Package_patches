@@ -1,4 +1,4 @@
-From 7c5db44f99c2945b510160269b73d305a4db3c96 Mon Sep 17 00:00:00 2001
+From b8209b677ff37b6751996cc4534d067bec356c83 Mon Sep 17 00:00:00 2001
 From: "neeraj.dantu" <neeraj.dantu@octavosystems.com>
 Date: Wed, 23 Sep 2020 18:29:52 -0500
 Subject: [PATCH 4/4] Fix Cube programmer GPIO default level
@@ -21,5 +21,5 @@ index c061308628..38a0458838 100644
  
  	clocks {
 -- 
-2.17.1
+2.25.1
 
