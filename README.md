@@ -1,3 +1,4 @@
+# This is an obsolete repository. Please see https://github.com/octavosystems/meta-octavo-osd32mp1 for OpenSTLinux support
 # BRK Developer Package patches
 This repository contains the patches that add support for OSD32MP1-BRK in OpenST Linux Developer Package
 
